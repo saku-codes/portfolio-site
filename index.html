@@ -1,17 +1,95 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sample Web</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Sample Web</h1>
-    </header>
-    <footer>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sakuma Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    </footer>
-  </body>
+<!-- ヘッダー -->
+<header>
+  <div class="container">
+    <h1>Sakuma Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#company">Company</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- メイン -->
+<section class="hero">
+  <div class="container">
+    <h2>低コストで成果につながるWeb制作</h2>
+    <p>中小企業向けに最適なWebサイトをご提案します</p>
+  </div>
+</section>
+
+<!-- サービス -->
+<section id="service">
+  <div class="container">
+    <h2>Service</h2>
+    <div>
+      <h3>Webサイト制作</h3>
+      <p>企業サイトの制作を行います。</p>
+    </div>
+    <div>
+      <h3>LP制作</h3>
+     <p>集客に特化したページを制作します。</p>
+    </div>
+    <div>
+      <h3>レスポンシブ対応</h3>
+      <p>スマホでも見やすいサイトを制作します。</p>
+    </div>
+  </div>
+</section>
+
+<!-- 制作の流れ -->
+<section id="flow">
+  <div class="container">
+    <h2>Flow</h2>
+      <ol>
+        <li>ヒアリング</li>
+        <li>設計・デザイン</li>
+        <li>開発</li>
+        <li>納品</li>
+      </ol>
+  </div>    
+</section>
+
+<!-- 会社概要 -->
+<section id="company">
+  <div class="container">
+    <h2>Company</h2>
+    <p>会社名：Sakuma Portfolio</p>
+    <p>所在地：札幌市</p>
+    <p>事業内容：Web制作</p>
+  </div>  
+</section>
+
+<!-- お問い合わせ -->
+<section id="contact">
+  <div class="container">
+    <h2>Contact</h2>
+    <form>
+      <input type="text" placeholder="お名前">
+      <input type="email" placeholder="メールアドレス">
+      <textarea placeholder="お問い合わせ内容"></textarea>
+      <button type="submit" class="contact-submit" >送信</button>
+    </form>
+  </div>
+</section>
+
+<!-- フッター -->
+<footer>
+  <p>© 2026 Sakuma Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
