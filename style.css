@@ -122,3 +122,41 @@ button:hover {
   background: #0056b3;
 }
 
+@media (max-width: 768px) {
+
+  /* ヘッダー */
+  header .container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* メイン */
+  .hero {
+    padding: 60px 20px;
+  }
+
+  .hero h2 {
+    font-size: 24px;
+  }
+
+  /* セクション */
+  section {
+    padding: 40px 0;
+  }
+
+  /* サービス */
+  #service div {
+    text-align: center;
+  }
+
+  /* フォーム */
+  form {
+    width: 100%;
+  }
+
+}
