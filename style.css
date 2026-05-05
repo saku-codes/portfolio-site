@@ -30,6 +30,14 @@ header .container {
   align-items: center;
 }
 
+/* ボタン */
+.menu-btn {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
 nav ul {
   display: flex;
   list-style: none;
@@ -149,12 +157,28 @@ button:hover {
   background: #0056b3;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media (max-width: 768px) {
 
   /* ヘッダー */
   header .container {
     flex-direction: column;
     gap: 10px;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .nav.active {
+    display: block;
   }
 
   nav ul {
